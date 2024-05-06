@@ -4,5 +4,9 @@ source "https://rubygems.org"
 
 # gem "rails"
 gem "sinatra"
+gem 'sinatra-contrib'
+gem 'activerecord', '~> 6.0'
+gem "sqlite3", '~> 1.4'
 gem "rackup"
-gem "puma"
+gem 'yaml'
+gem 'bigdecimal'
